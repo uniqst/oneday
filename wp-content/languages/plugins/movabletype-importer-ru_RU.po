@@ -1,0 +1,128 @@
+# Translation of Stable (latest release) in Russian
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-01 21:16:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: movabletype-importer.php:481
+msgid "All done. <a href=\"%s\">Have fun!</a>"
+msgstr "Готово. <a href=\"%s\">Наслаждайтесь!</a>"
+
+#: movabletype-importer.php:209
+msgid "Below, you can see the names of the authors of the Movable Type posts in <em>italics</em>. For each of these names, you can either pick an author in your WordPress installation from the menu, or enter a name for the author in the textbox."
+msgstr "Ниже вы можете видеть имена авторов записей MovableType <em>курсивом</em>. Для каждого из этих имён вы можете выбрать автора из присутствующих в меню или ввести имя автора в соответствующем поле."
+
+#: movabletype-importer.php:260
+msgid "Post <em>%s</em> already exists."
+msgstr "Запись <em>%s</em> уже существует."
+
+#: movabletype-importer.php:263
+msgid "Importing post <em>%s</em>..."
+msgstr "Импорт записи <em>%s</em>&hellip;"
+
+#: movabletype-importer.php:44
+msgid "Import Movable Type or TypePad"
+msgstr "Импорт из Movable Type и TypePad"
+
+#: movabletype-importer.php:63
+msgid "Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
+msgstr "Или используйте файл <code>mt-export.txt</code> в  вашей директории <code>/wp-content/</code>"
+
+#: movabletype-importer.php:65
+msgid "Import mt-export.txt"
+msgstr "Импортировать mt-export.txt"
+
+#: movabletype-importer.php:68
+msgid "The importer is smart enough not to import duplicates, so you can run this multiple times without worry if&#8212;for whatever reason&#8212;it doesn&#8217;t finish. If you get an <strong>out of memory</strong> error try splitting up the import file into pieces."
+msgstr "Скрипт импорта достаточно умён и не импортирует дубликаты записей, поэтому можете не беспокоиться, если запустите его несколько раз. Если вышла ошибка <strong>out of memory</strong> попробуйте разбить файл импорта на несколько частей."
+
+#: movabletype-importer.php:207
+msgid "Assign Authors"
+msgstr "Привязать авторов"
+
+#: movabletype-importer.php:210
+msgid "If a new user is created by WordPress, a password will be randomly generated. Manually change the user&#8217;s details if necessary."
+msgstr "При создании нового пользователя WordPress сгенерирует пароль случайным образом. Если необходимо, смените его вручную."
+
+#: movabletype-importer.php:221
+msgid "Current author:"
+msgstr "Текущий автор:"
+
+#: movabletype-importer.php:221
+msgid "Create user %1$s or map to existing"
+msgstr "Создать пользователя %1$s или связать с существующим"
+
+#: movabletype-importer.php:226
+msgid "Submit"
+msgstr "Отправить"
+
+#: movabletype-importer.php:236
+msgid "<code>mt-export.txt</code> does not exist"
+msgstr "<code>mt-export.txt</code> не существует"
+
+#: movabletype-importer.php:242
+msgid "Sorry, there has been an error"
+msgstr "Извините, возникла ошибка."
+
+#: movabletype-importer.php:300
+msgid "(%s comment)"
+msgid_plural "(%s comments)"
+msgstr[0] "(%s комментарий)"
+msgstr[1] "(%s комментария)"
+msgstr[2] "(%s комментариев)"
+
+#: movabletype-importer.php:317
+msgid "(%s ping)"
+msgid_plural "(%s pings)"
+msgstr[0] "(%s уведомление)"
+msgstr[1] "(%s уведомления)"
+msgstr[2] "(%s уведомлений)"
+
+#: movabletype-importer.php:527
+msgid "Movable Type and TypePad"
+msgstr "Movable Type и TypePad"
+
+#. #-#-#-#-#  tmp-movabletype-importer.pot (Movable Type and TypePad Importer
+#. 0.4)  #-#-#-#-#
+#. Description of the plugin/theme
+#: movabletype-importer.php:527
+msgid "Import posts and comments from a Movable Type or TypePad blog."
+msgstr "Импорт записей и комментариев из Movable Type или TypePad."
+
+#: movabletype-importer.php:55
+msgid "Howdy! We are about to begin importing all of your Movable Type or TypePad entries into WordPress. To begin, either choose a file to upload and click &#8220;Upload file and import&#8221;, or use FTP to upload your MT export file as <code>mt-export.txt</code> in your <code>/wp-content/</code> directory and then click &#8220;Import mt-export.txt&#8221;."
+msgstr "Привет! Мы готовы начать процесс импорта всех записей из Movable Type или TypePad в WordPress. Чтобы начать, выберите файл для загрузки и нажмите &laquo;Загрузить и импортировать&raquo; или загрузите по FTP ваш файл экспорта MT под названием <code>mt-export.txt</code> в директорию <code>/wp-content/</code>, а затем нажмите &laquo;Импорт mt-export.txt&raquo;."
+
+#: movabletype-importer.php:208
+msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as admin&#8217;s entries."
+msgstr "Чтобы было легче редактировать и сохранять импортированные записи и черновики, вы можете, если захотите, изменить имя автора записей. Например, вы можете импортировать все записи под авторством логина admin."
+
+#: movabletype-importer.php:77
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Выбрать &mdash;"
+
+#: movabletype-importer.php:281
+msgid "Adding tags <em>%s</em>..."
+msgstr "Добавление меток <em>%s</em>..."
+
+#. Plugin Name of the plugin/theme
+msgid "Movable Type and TypePad Importer"
+msgstr "Импорт из Movable Type и TypePad"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/movabletype-importer/"
+msgstr "http://wordpress.org/extend/plugins/movabletype-importer/"

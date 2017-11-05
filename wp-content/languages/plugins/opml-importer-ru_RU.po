@@ -1,0 +1,83 @@
+# Translation of Development (trunk) in Russian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2010-11-05 00:34:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Development (trunk)\n"
+
+msgid "http://wordpress.org/extend/plugins/opml-importer/"
+msgstr "http://wordpress.org/extend/plugins/opml-importer/"
+
+#: opml-importer.php:47 opml-importer.php:99
+msgid "Cheatin&#8217; uh?"
+msgstr "Хакер, что ли?"
+
+#: opml-importer.php:154
+msgid "You need to supply your OPML url. Press back on your browser and try again"
+msgstr "Вы должны указать OPML URL. Нажмите кнопку &laquo;Назад&raquo; в вашем браузере и попробуйте ещё раз."
+
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: opml-importer.php:148
+msgid "Inserted %1$d links into category %2$s. All done! Go <a href=\"%3$s\">manage those links</a>."
+msgstr "Ссылки (%1$d) добавлены в рубрику %2$s. Готово! Перейдите <a href=\"%3$s\">к управлению этими ссылками</a>."
+
+#: opml-importer.php:144
+msgid "Inserted <strong>%s</strong>"
+msgstr "Добавлено в <strong>%s</strong>"
+
+msgid "OPML Importer"
+msgstr "Импорт из OPML"
+
+#: opml-importer.php:173
+msgid "Import links in OPML format."
+msgstr "Импорт ссылок в формате OPML."
+
+#: opml-importer.php:173
+msgid "Blogroll"
+msgstr "Ссылки"
+
+#: opml-importer.php:68
+msgid "Or choose from your local disk:"
+msgstr "Или выберите файл на диске:"
+
+#: opml-importer.php:63
+msgid "Specify an OPML URL:"
+msgstr "Укажите OPML URL:"
+
+#: opml-importer.php:58
+msgid "If a program or website you use allows you to export your links or subscriptions as OPML you may import them here."
+msgstr "Если программа или сайт позволяет экспортировать ссылки в OPML-файл, вы можете импортировать их сюда."
+
+#: opml-importer.php:54
+msgid "Import your blogroll from another system"
+msgstr "Импортировать список ваших ссылок из другой системы"
+
+#: opml-importer.php:103
+msgid "Importing..."
+msgstr "Импортируем..."
+
+#: opml-importer.php:86
+msgid "Import OPML File"
+msgstr "Импорт OPML-файла"
+
+#: opml-importer.php:75
+msgid "Category:"
+msgstr "Раздел:"
+
+#: opml-importer.php:74
+msgid "Now select a category you want to put these links in."
+msgstr "Теперь укажите раздел, куда вы хотите поместить эти ссылки."
+
+#: opml-importer.php:28
+msgid "Import Blogroll"
+msgstr "Импорт списка ссылок"
